@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#cfd7c7;
+    width:100%;
+    height: 100vh;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteiner{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1em;
+}
+
+.text1{
+    background-color: #00b4d8;
+    width: 550px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px #333;
+}
+
+.text1 p{
+    text-transform: uppercase;
+    font-size: 4em;
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+}
+
+#title{
+    background-color: #fcca46;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px #333;
+}
+
+#title h2{
+    color:#fff;
+    font-size: 6em;
+    text-transform: uppercase;
+}
+
+.action{
+    width: 550px;
+    display: flex;
+    justify-content: end;
+    margin-top: 2em;
+}
+
+.action button{
+    padding: 10px;
+    width: 200px;
+    border-radius: 7px;
+    background-color: #fcca46;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.action button:hover{
+    background-color:#b98800 ;
+}
+
+.action button a{
+    text-decoration: none;
+    color: #ffff;
+    font-size:2em
+}
+
+/* Responsividade */
