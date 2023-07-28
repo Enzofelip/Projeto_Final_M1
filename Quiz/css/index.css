@@ -1,0 +1,136 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width:100%;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+section{
+  margin: 5px;
+}
+
+.Quest1{
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+h2{
+  display: flex;
+  margin: 5px;
+  margin-bottom: 5%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn_Aranha{
+  display: flex;
+  justify-content: center;
+
+}
+
+.btn1{
+  box-shadow: 5px 5px 5px rgb(168, 168, 168);
+  background-color: rgb(255, 255, 255);
+  border-color:rgb(226, 226, 226);
+  border-radius: 5%;
+  margin: 5px;
+  padding: 50px;
+  font-weight: bold;  
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+.btn1:hover {
+  transform: scale(1.1);
+  background-color: #fcca46;
+  transition: 500ms linear;
+}
+
+.btn2{
+  box-shadow: 5px 5px 5px rgb(168, 168, 168);
+  background-color: rgb(255, 255, 255);
+  border-color:rgb(226, 226, 226);
+  border-radius: 5%;
+  margin: 5px;
+  padding: 50px;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+.btn2:hover {
+  transform: scale(1.1);
+  background-color: #fcca46;
+  transition: 500ms linear;
+}
+
+.btn3{
+  box-shadow: 5px 5px 5px rgb(168, 168, 168);
+  background-color: rgb(255, 255, 255);
+  border-color:rgb(226, 226, 226);
+  border-radius: 5%;
+  margin: 5px;
+  padding: 50px;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+.btn3:hover {  
+  transform: scale(1.1);
+  background-color: #fcca46;
+  transition: 500ms linear;
+}
+
+.btn4{
+  box-shadow: 5px 5px 5px rgb(168, 168, 168);
+  background-color: rgb(255, 255, 255);
+  border-color:rgb(226, 226, 226);
+  border-radius: 5%;
+  margin: 5px;
+  padding: 50px;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+.btn4:hover {
+  transform: scale(1.1);
+  background-color: #fcca46;
+  transition: 500ms linear;
+}
+
+.Quest1 img{
+  width: 400px;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+
+.btn_verificar{
+  display: flex;
+  justify-content: end;
+}
+.btnVerificar{
+  display: flex;
+  color:rgb(255, 255, 255);
+  background-color: rgba(85, 156, 189, 0.712);
+  margin: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+  border-color: rgb(91, 158, 189);
+  box-shadow: 5px 3px 3px rgb(91, 158, 189);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.btnVerificar:hover {
+  transform: scale(1.1);
+  background-color: #00b4d8;
+}

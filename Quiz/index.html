@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/capa.css">
+    <link rel="stylesheet" href="/Quiz/css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Noto+Sans:ital,wght@0,100;0,200;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <title>Capa Quiz</title>
+    <title>Quiz</title>
 </head>
 <body>
-    <main class="conteiner">
-        <div class="text1">
-            <p>Javascript</p>
+    <h1>Quiz Javascript</h1>
+    <section>
+    <div class="Quest1">
+        <h2>Qual é o nome do ator principal do filme Homem-Aranha?</h2>
+        <img src="imagens/Homem-Aranha.jpeg">
+            <div class="btn_Aranha">
+            <button class="btn1" onclick="certo()"> Peter Paker</button>
+            <button class="btn2" onclick="errado()"> Purse jackson</button>
+            <button class="btn3" onclick="errado()"> Professor Xavier</button>
+            <button class="btn4" onclick="errado()"> Pantera Negra</button>
         </div>
-        <div id="title">
-            <h2>QUIZ</h2>
-        </div>
-        <div class="text1">
-            <p>Programação</p>
-        </div>
-
-        <div class="action">
-            <button><a href="/Quiz/index.html">Começar</a></button>
-        </div>
-    </main>
+    </div>
+    <div class="btn_verificar">
+    <button class="btnVerificar" onclick="certo()">Verificar</button>
+    </div>
+    </section>
 </body>
 </html>
