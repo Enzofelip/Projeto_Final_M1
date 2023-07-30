@@ -8,8 +8,8 @@ const Menssage = document.getElementById("message");
 const Menssage2 = document.getElementById("message2");
 const Menssage3 = document.getElementById("message3");
 const Menssage4 = document.getElementById("message4");
-const Image = document.getElementById("image")
-
+const Image = document.getElementById("image");
+const textQuestao = document.getElementById("textPergunta");
 
 // Função de click dos cards para seecionar eles
 // quando eles forem clicado vao ser selecionado ficando laranja e crescendo com o metodo scale do css
@@ -59,16 +59,25 @@ const message = () =>{
 
 //o if else esta realizando a checagem das respostas erradas entao eu coloquei o operador logico || que so precisa de 1 resposta verdadeira pra ocorrer a funcao
 // Entao se uma das variaveis que esta dentro do else if estiver checado quando eu clicar no botao verificar vai exibir a menssagem de erro no alert
-let images = ["./imagens/Homem-Aranha.jpeg","./imagens/fundo2.jpg", "./imagens/labra1.jpg", "./imagens/labra2.jpg"]
-let validation = false;
+let images = ["./imagens/Homem-Aranha.jpeg","./imagens/fundo2.jpg", "./imagens/labra1.jpg", "./imagens/labra2.jpg"];
+
+let perguntas = ["Qual é o nome do ator principal do filme Homem-Aranha?" ,"Qual o seu nome", "Quantos anos voce tem", "Onde você mora", "Qual o resultado da sooma"];
+
+
+let validation = 0;
+
 function certo(){
     if(Input1.checked){
         alert("Voê acertou");
         progress.value = progress.value + 25;
-       
+        validation = validation + 1;
+        Image.src = images[validation];
+        textQuestao.innerHTML = perguntas[validation];       
     }else if(Input2.checked || Input3.checked || Input4.checked){
         progress.value =  0;
         alert("Resposta errada");
         Image.src = images[0]
+        textQuestao.innerHTML = perguntas[0]
+        validation = 0;
     }
 }

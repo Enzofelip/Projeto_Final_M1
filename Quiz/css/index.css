@@ -19,13 +19,14 @@ section{
 }
 
 #conteiner{
-  max-width: 100%;
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #00b4d8;
+  padding: 1em;
 }
 
 #progress{
@@ -46,6 +47,7 @@ progress::-webkit-progress-value {
 }
 
 .Quest1{
+  width: 100%;
   display: flex;
   margin: 5px;
   justify-content: center;
@@ -90,7 +92,7 @@ h2{
   transition: 500ms linear;
 } */
 
- .radio_conteiner, label{
+ .radio_conteiner{
   box-shadow: 5px 5px 5px #ff7f11;
   background-color: rgb(255, 255, 255);
   border-radius: 7px;
@@ -115,6 +117,10 @@ h2{
 
 input[type="radio"]{
     display: block;
+}
+
+#res_2{
+  display: none;
 }
 
 
@@ -202,4 +208,48 @@ input[type="radio"]{
 
 button{
   cursor: pointer
+}
+
+@media(max-width:841px){
+  h2{
+    font-size: 1em;
+  }
+}
+
+@media(max-width:570px){
+  #progress{
+    width: 100%;
+  }
+  .btn_verificar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+}
+
+@media(max-width:530px){
+  h2{
+    width: auto
+  }
+
+  .Quest1 img{
+    width: 200px;
+  }
+
+  .btn_Aranha{
+    width: 250px;
+  }
+
+  .radio_conteiner{
+    height: 70px;
+    width: 100px;
+  }
+}
+
+@media(max-width:289px){
+  h1{
+    font-size: 1.5em;
+  }
 }
