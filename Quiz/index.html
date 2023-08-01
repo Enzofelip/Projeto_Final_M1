@@ -16,50 +16,23 @@
         <section>
         <div class="Quest1">
             <progress id="progress" value="0" max="100"></progress>
-            <h2 id="textPergunta">Qual é o nome do ator principal do filme Homem-Aranha?</h2>
 
+            <div id="question">
+                <h2 id="textPergunta">Qual é o nome do ator principal do filme Homem-Aranha?</h2>
+            </div>
            
             <img src="imagens/Homem-Aranha.jpeg" id="image">
-                <div class="btn_Aranha" id="area1">     
-                        <label class="radio_conteiner" onclick="message()" id="message">
-                            <input type="radio"  value="resposta1" name="avaliacao" 2
-                            id="text1">    
-                            <p>Petter Park</p>
-                        </label>
-
-                    
-                        
-                        <label  class="radio_conteiner"  onclick="message()" id="message2">
-                            <input type="radio"  value="resposta2" name="avaliacao" id="text2" >
-                            <p>Creed</p>
-                        </label>
-
-                    
+                <div class="btn_Aranha" id="area1"> 
+                    <input type="radio"  value="Petter Park" name="avaliacao" 2 id="text1"> 
+                               
+                    <input type="radio"  value="Homem de Ferro" name="avaliacao" id="text2" >
                        
-                        <label  class="radio_conteiner"  onclick="message()" id="message3">
-                            <input type="radio"  value="resposta3" name="avaliacao"  id="text3">
-                            <p>Enzo Felipe</p>
-                        </label> 
-
                     
+                    <input type="radio"  value="Capitão América" name="avaliacao"  id="text3">
                        
-                        <label  class="radio_conteiner"  onclick="message()" id="message4">
-                            <input type="radio"  value="resposta4" name="avaliacao" id="text4" > 
-                            <p>Gihh</p>S
-                        </label> 
-                    <!-- <button class="btn1" onclick="certo()"> Peter Paker</button>
-                    <button class="btn2" onclick="errado()"> Purse jackson</button>
-                    <button class="btn3" onclick="errado()"> Professor Xavier</button>
-                    <button class="btn4" onclick="errado()"> Pantera Negra</button> -->
+                    
+                    <input type="radio"  value="Thor" name="avaliacao" id="text4" >
 
-                    <div id="res_2">
-                        <label class="radio_conteiner" onclick="message()" id="message">
-                            <input type="radio"  value="resposta1" name="avaliacao" 2
-                            id="text1">    
-                            <p>Petter Park</p>
-                        </label>
-
-                    </div>
                 </div>
         </div>
         <div class="btn_verificar">

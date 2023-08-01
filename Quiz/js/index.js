@@ -16,42 +16,6 @@ const textQuestao = document.getElementById("textPergunta");
 // O uso do if foi para checar se os cards  estao checados se estiver eu mudo a cor e o tamanho, mais ele nao volta pra posicao inicial depois
 // Entao coloquei um else para voltar ao padrao normal dos cards
 
-const message = () =>{
-    console.log("Certo");
-
-    if(Input1.checked){
-        Menssage.style.backgroundColor = "#fcca46";
-        Menssage.style.transform = "scale(1.1)";
-    }else{
-        Menssage.style.backgroundColor = "rgb(255, 255, 255)";
-        Menssage.style.transform = "scale(1)";
-    }
-
-    if(Input2.checked){
-        Menssage2.style.backgroundColor = "#fcca46";
-        Menssage2.style.transform = "scale(1.1)";
-    }else{
-        Menssage2.style.backgroundColor = "rgb(255, 255, 255)";
-        Menssage2.style.transform = "scale(1)";
-    }
-
-    if(Input3.checked){
-        Menssage3.style.backgroundColor = "#fcca46";
-        Menssage3.style.transform = "scale(1.1)";
-    }else{
-        Menssage3.style.backgroundColor = "rgb(255, 255, 255)";
-        Menssage3.style.transform = "scale(1)";
-    }
-
-    if(Input4.checked){
-        Menssage4.style.backgroundColor = "#fcca46";
-        Menssage4.style.transform = "scale(1.1)";
-    }else{
-        Menssage4.style.backgroundColor = "rgb(255, 255, 255)";
-        Menssage4.style.transform = "scale(1)";
-    }
-}
-
 // Essa funcao é para fazer a checagem da resposta certa
 //O primeiro if é para checar a resposta certa entao se quando eu clicar no notao verificar se o INput1 estiver checado ai vai aumentar a barrinha e vai aparecer um alert dizendo que voce acertou
 
