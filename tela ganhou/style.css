@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .caixa1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   transform: scale(1.5);
+  }
+  
+  h1{
+    font-family: 'Handjet', sans-serif;
+    font-size: 100px;
+    color: black;
+    text-shadow:
+    -1px -1px 0px #FFF, 
+    -1px 1px 0px #FFF,                    
+    1px -1px 0px #FFF,                  
+    1px 0px 0px #FFF;
+}
+
+.btn_joguenovamente{
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  height: 50px;
+  background-color: #da107b;
+  margin: 5px;
+  border-radius: 30px;
+  border-color: rgb(91, 158, 189);
+  box-shadow: 3px 3px 3px 3px black;
+  margin-top: 350px;
+  position: absolute;
+}
+.btn_joguenovamente a{
+  font-family: 'Handjet';
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;  
+}
+
+.btn_joguenovamente:hover{
+width: 230px;
+height: 100px;
+background-color: #01ecf3;
+}
