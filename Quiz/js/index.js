@@ -36,7 +36,8 @@ function certo(){
         progress.value = progress.value + 25;
         validation = validation + 1;
         Image.src = images[validation];
-        textQuestao.innerHTML = perguntas[validation];       
+        textQuestao.innerHTML = perguntas[validation];
+        window.location.href = "../Elzo_Quiz/index.html"     
     }else if(Input2.checked || Input3.checked || Input4.checked){
         progress.value =  0;
         alert("Resposta errada");
