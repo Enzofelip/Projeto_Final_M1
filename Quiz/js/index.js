@@ -37,7 +37,7 @@ function certo(){
         validation = validation + 1;
         Image.src = images[validation];
         textQuestao.innerHTML = perguntas[validation];
-        window.location.href = "../Elzo_Quiz/index.html"     
+        window.location.href = "/telas/round2.html"     
     }else if(Input2.checked || Input3.checked || Input4.checked){
         progress.value =  0;
         alert("Resposta errada");
