@@ -7,9 +7,10 @@ function responda(){
   let respo3 = prompt("Digite sua 3º Resposta");
 
 
-  document.getElementById('resultado').innerHTML = "Resposta digitada: " +respo1 + ", "+ respo2+ ", "+respo3;
+  document.getElementById('resultado').innerHTML = "Resposta digitada: " +respo1.toUpperCase() + ", "+ respo2+ ", "+respo3;
   
-    if(respostas[0] == respo1 && respostas[1] == respo2 && respostas[2] == respo3){
+    if(respostas[0] == respo1.toUpperCase() && respostas[1] == respo2.toUpperCase() && respostas[2] == respo3.toUpperCase()){
+   
       alert("Você acertou!")
       
       // Abre a página "nova.html" depois de 5 segundos
