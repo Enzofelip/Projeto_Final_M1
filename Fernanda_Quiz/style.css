@@ -1,34 +1,38 @@
-*{
-  padding: 0;
+html, body {
+  height: 100%;
   margin: 0;
-  box-sizing: border-box;
+  padding: 0;
 }
 
 body{
-  width:100%;
-  height: 100vh;
-  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./imagens/fundo.jpeg); 
   overflow: hidden;
-  background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(123, 52, 189));
 }
+  
+
 
 section{
-  margin: 15%;
-  border: 3px solid rgb(123, 52, 189);
-  box-shadow: 5px 5px 5px 5px rgb(75, 23, 124);
-  border-radius: 7px;
-  padding: 1em;
-  position: absolute;
+  margin: 5px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 5px 5px ;
+    border-radius: 7px;
+    padding: 1em;
+    
+ 
 }
 /* Estilização da div que contém as bolhas */
 .container{
-  position: relative;
   width: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -81,49 +85,6 @@ p{
   button{
     cursor: pointer
   }
-
-
-/* posicionamento das bolhas */
-.bolhas{
-  position: absolute;
-  display: flex;
-}
-
-/* Estilização das bolhas */
-.bolhas span{
-  width: 20px;
-  height: 20px;
-  background-color: #0ea04b;
-  margin: 0 4px;
-  border-radius: 50%;
-  /* Gradação das cores em volta das bolhas */
-  box-shadow: 0 0 0 10px #0ea04b44,
-  0 0 50px #0ea04b,
-  0 0 100px #0ea04b;
-  /* Adição de animação e chamando a função 'animar' as bolhas */
-  animation: animar calc(250s/ var(--i)) linear infinite;
-}
-
-/* Estilização das bolhas */
-.bolhas span:nth-of-type(even){
-  background: #b1db17;
-    /* Gradação das cores em volta das bolhas */
-  box-shadow: 0 0 0 10px #b1db1744,
-  0 0 50px #b1db17,
-  0 0 100px #b1db17;
-}
-
-/* Animação das bolhas */
-@keyframes animar{
-  0%{
-    transform: translateY(100vh)scale(0);
-  }
-  100%{
-    /**/
-    transform: translateY(-1vh)scale(0.5);
-  }
-}
-
 
 
 @media(max-width:570px){
