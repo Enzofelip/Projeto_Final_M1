@@ -23,7 +23,7 @@ html, body {
   h1{
     text-align: center;
     color: ghostwhite;
-    font-size: 50px;
+    font-size: 30px;
     font-family: century-gothic, sans-serif;
   background-color: black;
   }
@@ -57,7 +57,7 @@ html, body {
   .respostas{
   width: 200px;
   height: 70px;
-  border: 2px solid yellow;
+  border: 2px solid #2e2787;
   text-align: center;
   display: flex;
   align-items: center;
@@ -76,7 +76,7 @@ html, body {
     background-color: black;
     margin: 5px;
     border-radius: 30px;
-    border-color: yellow;
+    border-color: #2e2787;
     box-shadow: 5px 3px 3px black;
     font-weight: bold;
     font-size: 1rem;
@@ -89,7 +89,7 @@ html, body {
     font-family: century-gothic, sans-serif;
   }
   #programacao{
-    height: 400px;
+    height: 350px;
     border-radius: 5px;
     margin-bottom: 5%;
   }
