@@ -1,24 +1,24 @@
-var resposta = "A";
-    
-function verificar()
+var respostas = ["A", "B", "C", "D"];
 
-         {
-            var pergunta = prompt("Digite a letra da resposta");  
-            if (pergunta !== null) {
-                pergunta = pergunta.toUpperCase(); // Converter a resposta para maiúsculas para evitar problemas com letras minúsculas ou maiúsculas.
+function verificar() {
+    var respostaUsuario;
 
-                if (pergunta === resposta) {
-                    alert("Você ganhou!");
-                    setTimeout(function() {
-                        window.location = "/telas/round3.html";
-                      }, 2000);
-                } else {
-                    alert("Você perdeu!");
-                    setTimeout(function() {
-                        window.location = "../telas/gameOver.html";
-                      }, 2000);
-
-                }
-                
-            }
+    do {
+        respostaUsuario = prompt("Digite a letra da resposta").toUpperCase();
+        if (!respostas.includes(respostaUsuario)) {
+            alert("Digite uma letra válida.");
         }
+    } while (!respostas.includes(respostaUsuario));
+
+    if (respostaUsuario === respostas[0]) {
+        alert("Você ganhou!");
+        setTimeout(function() {
+            window.location = "/telas/round3.html";
+        }, 2000);
+    } else {
+        alert("Você perdeu!");
+        setTimeout(function() {
+            window.location = "../telas/gameOver.html";
+        }, 2000);
+    }
+}
