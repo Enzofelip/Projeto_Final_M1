@@ -70,6 +70,8 @@ h1{
     font-size: 30px;
     font-family: century-gothic, sans-serif;
   background-color: black;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 h2{
@@ -117,7 +119,7 @@ input[type="radio"]::after{
 
 input[type="radio"]:checked::after{
   transform: scale(1.1);
-  background-color: #fcca46;
+  background-color: #080336;
   transition: 500ms linear;
 }
 
@@ -168,7 +170,7 @@ label{
 
 .btnVerificar:hover {
   transform: scale(1.1);
-  background-color: #00b4d8;
+  background-color: #082a9b;
 }
 
 button{
