@@ -102,26 +102,27 @@ body{
     font-size:2em
 }
 
- label{
-    box-shadow: 5px 5px 5px #ff7f11;
-    background-color: rgb(255, 255, 255);
-    border-radius: 7px;
-    margin: 5px;
-    height: 70px;
-    width: 200px;
-    padding: 5px;
-    font-weight: bold;
-    font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:1em
-  } 
-
-  input[type="radio"]:checked + label{
-    background-color: #00b4d8;
-  }
-/* Responsividade */
-/* REsponsividade o1 */
+.btn_voltar{
+display: flex;
+color:rgb(255, 255, 255);
+background-color: black;
+margin: 5px;
+        border-radius: 30px;
+        border-color: #2e2787;
+        box-shadow: 5px 3px 3px black;
+        font-weight: bold;
+        font-size: 1rem;
+        height: 40px;
+        width: 150px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transform: scale(1.5);
+        font-family: century-gothic, sans-serif;
+      }
+ 
+    
+    .btn_voltar:hover{
+      transform: scale(1.1);
+      background-color: #2e2787;
+    }

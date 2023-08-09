@@ -13,7 +13,7 @@ function verificar() {
     if (respostaUsuario === respostas[0]) {
         alert("Você ganhou!");
         setTimeout(function() {
-            window.location = "../Larrissa_Quiz/Quiz/index.html";
+            window.location = "../telas/nivelHard.html";
         }, 2000);
     } else {
         alert("Você perdeu!");

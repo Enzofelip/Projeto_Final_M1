@@ -8,5 +8,8 @@ var responder = prompt("Javascript é uma linguagem de...");
         }
             else (responder == "programação"); {
             alert ("resposta certa");
+            setTimeout(function() {
+                window.location = "/tela ganhou/index.html";
+            }, 2000);
                     }
                 }
