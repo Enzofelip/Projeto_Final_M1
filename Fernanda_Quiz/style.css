@@ -20,6 +20,8 @@ section{
   padding: 1em;
   position: absolute;
 }
+
+
 /* Estilização da div que contém as bolhas */
 .container{
   position: relative;

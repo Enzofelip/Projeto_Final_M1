@@ -11,7 +11,8 @@ function responda(){
   
     if(respostas[0] == respo1.toUpperCase() && respostas[1] == respo2.toUpperCase() && respostas[2] == respo3.toUpperCase()){
    
-      alert("Você acertou!")
+      alert("Você acertou!");
+      
       
       // Abre a página "nova.html" depois de 5 segundos
       setTimeout(function() {
