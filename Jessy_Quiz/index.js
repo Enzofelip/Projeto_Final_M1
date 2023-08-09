@@ -10,7 +10,7 @@ function verificar() {
         }
     } while (!respostas.includes(respostaUsuario));
 
-    if (respostaUsuario === respostas[0]) {
+    if (respostaUsuario === respostas[2]) {
         alert("Você ganhou!");
         setTimeout(function() {
             window.location = "../telas/nivelHard.html";
