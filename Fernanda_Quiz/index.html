@@ -8,18 +8,20 @@
     <title>Document</title>
 </head>
     <body> 
-        <section>
-            <div class="centralizar">
+        <main id="container">
             <h1>Complete a seguinte frase: </h1>
-            <img src="imagens/programmer.gif" class="teste">
-            <p>Deve-se usar o ________ para criar a estrutura da página, o ________ para estilizar os elementos presentes na página e o 
-                ________ para adicionar funções aos elementos da página.</p>
-                <button onclick="responda()" type="submit" id="botao-verificar"><strong>Responder</strong></button>
-            </div>
-            <div id="resultado"></div>
-        </section>
-    
-        
+            <section>
+                <div class="centralizar">
+                <img src="imagens/programmer.gif" class="teste">
+                <div class="text">
+                    <p>Deve-se usar o ________ para criar a estrutura da página, o ________ para estilizar os elementos presentes na página e o 
+                        ________ para adicionar funções aos elementos da página.</p>
+                        <button onclick="responda()" type="submit" id="botao-verificar"><strong>Responder</strong></button>
+                </div>
+                </div>
+                <div id="resultado"></div>
+            </section>
+        </main>
         <script src="./index.js"></script>
     </body>
 </html>

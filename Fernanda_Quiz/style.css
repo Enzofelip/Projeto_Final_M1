@@ -11,36 +11,39 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(./imagens/fundo.jpeg); 
-  overflow: hidden;
 }
   
 
 
 section{
-  margin: 6px;
-    border: 11px solid black;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-basis: 50%;
-    box-shadow: 3px 3px 5px 5px;
-  
- 
+  margin: 5px;
+  border: 3px solid black;
+  box-shadow: 5px 5px 5px 5px ;
+  border-radius: 7px;
+  padding: 1em; 
 }
-/* Estilização da div que contém as bolhas */
-.container{
+
+#conteiner{
   width: 100%;
-    display: flex;
-    margin: 5px;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #00b4d8;
+  padding: 1em;
 }
 
+.text{
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  margin-top: -50px;
+}
 
-p{
-  
+.text p{
   color:ghostwhite;
   background-color: black;
   font-size: 28px;
@@ -48,23 +51,25 @@ p{
   text-align: justify;
   font-family: century-gothic, sans-serif;
   padding: 20px;
-  border-radius: 15px;
+  border: 2px solid #2e2787;
+  box-sizing: border-box;
 }
   
   #resultado{
-    display: flex;
-    justify-content: center;
+    color:ghostwhite;
     font-size: 20px;
+    margin: 2%; 
+    text-align: justify;
+    font-family: century-gothic, sans-serif;
+    border-radius: 15px;
   }
 
    h1{
-    color: #ffffff;
-    font-family: century-gothic, sans-serif;
+    text-align: center;
+    color: ghostwhite;
     font-size: 30px;
-    padding: 10px;
-    border: 5px solid black;
+    font-family: century-gothic, sans-serif;
     background-color: black;
-    letter-spacing: normal;
   
    }
 
@@ -90,20 +95,23 @@ p{
     cursor: pointer;
     transform: scale(1.5);
     font-family: century-gothic, sans-serif;
-
-  }    
+  } 
+  
+  #botao-verificar:hover {
+    transform: scale(1.1);
+    background-color: #2e2787;
+  }
 
   button{
     cursor: pointer
   }
 
   .teste{
-    height: 500px;
-     border-radius: 25px;
-    padding: 12px;
-    background-color: black;
-    
+    height: 350px;
+    border-radius: 5px;
+    margin-bottom: 5%;
   }
+
   .centralizar{
     width: 100%;
     display: flex;
