@@ -5,10 +5,16 @@
 }
 
 body{
-  width: 100%;
+  background-color:#cfd7c7;
+  width:100%;
   height: 100vh;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  overflow: hidden;
 }
 
 .centralizar{
@@ -16,7 +22,7 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
+} 
 
 h1{
   display: flex;
@@ -40,30 +46,44 @@ h3{
   position: absolute;
 }
 
+/* Botão da tela de regras */
 .btn_voltar{
-  border-radius: 5px;
   display: flex;
-  justify-content: center;
+  color:rgb(255, 255, 255);
+  background-color: black;
+  margin: 30%;
+  border-radius: 30px;
+  border-color: #2e2787;
+  box-shadow: 5px 3px 3px black;
+  font-weight: bold;
+  font-size: 1rem;
+  height: 40px;
+  width: 150px;
   align-items: center;
-  padding: 2%;
-  height: 50px;
-  background-color: rgba(85, 189, 166, 0.712);
-  margin: 5px;
-  border-radius: 3px;
-  border-color: rgb(91, 158, 189);
-  box-shadow: 3px 3px 3px 3px #ff7f11;
-  margin-top: -30%;
-  position: absolute;
-}
-
-/*Estilização da frase dentro do botão*/
-
-.btn_voltar a{
-  font-family: 'Handjet';
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: black;  
-}
+  justify-content: center;
+  cursor: pointer;
+  transform: scale(1.5);
+  font-family: century-gothic, sans-serif;
+  }
+   
+      
+  .btn_voltar:hover{
+      transform: scale(1.1);
+      background-color: #2e2787;
+  }
+  
+  .btn_voltar a{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-size: 1.5em;
+  }
+  
+  .btn_voltar a:hover{
+      text-decoration: none;
+      color: whitesmoke;
+      font-size:1em
+  }
+  
 
 /* Estilização da div que contém as bolhas */
 .container{
