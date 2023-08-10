@@ -51,7 +51,7 @@ h3{
   display: flex;
   color:rgb(255, 255, 255);
   background-color: black;
-  margin: 30%;
+  margin: 500px;
   border-radius: 30px;
   border-color: #2e2787;
   box-shadow: 5px 3px 3px black;
@@ -68,20 +68,19 @@ h3{
    
       
   .btn_voltar:hover{
-      transform: scale(1.1);
+      transform: scale(1.9);
       background-color: #2e2787;
   }
   
   .btn_voltar a{
       text-decoration: none;
       color: rgb(255, 255, 255);
-      font-size: 1.5em;
+      font-size: 1.2em;
   }
   
   .btn_voltar a:hover{
       text-decoration: none;
       color: whitesmoke;
-      font-size:1em
   }
   
 

@@ -9,7 +9,7 @@ function btnresposta()
                 if (pergunta === resposta) {
                     alert("Você ganhou!");
                     setTimeout(function() {
-                        window.location = "/telas/round3.html";
+                        window.location = "/tela ganhou/index.html";
                       }, 2000);
                 } else {
                     alert("Você perdeu!");

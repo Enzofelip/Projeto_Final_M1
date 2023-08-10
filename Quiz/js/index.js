@@ -9,9 +9,14 @@ const textQuestao = document.getElementById("textPergunta");
 function certo(){
     if(Input1.checked){
         alert("Você acertou");
-        window.location.href = "/telas/round2.html"     
+        setTimeout(function() {
+            window.location = "../telas/nivelHard.html";
+        }, 2000);     
     }else if(Input2.checked || Input3.checked || Input4.checked){
          alert("Resposta errada");
+         setTimeout(function() {
+            window.location = "../telas/gameOver.html";
+        }, 2000);
     }   
 }
 
