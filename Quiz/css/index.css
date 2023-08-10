@@ -1,7 +1,7 @@
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
 }
 
 body{
@@ -12,8 +12,6 @@ body{
   background-size: cover;
   padding: 2em;
   background-image: url(../imagens/fundo.jpeg);
-  background-size: cover;
-  background-position: center;
 }
 
 #conteiner{
@@ -152,12 +150,20 @@ button{
 }
 
 @media(max-width:841px){
+  section{
+    padding: 3em;
+    gap:3em;
+  }
   h2, h1{
     font-size: 1em;
   }
 
   #question{
     width: 100%;
+  }
+
+  #question h2{
+    font-size: 1em;
   }
 
   .btn_Aranha{
@@ -171,10 +177,6 @@ button{
   }
 
   section{
-    width: 250px;
-  }
-
-  .btn_Aranha{
     width: 250px;
   }
 }
