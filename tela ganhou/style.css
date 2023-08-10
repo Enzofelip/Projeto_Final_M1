@@ -1,59 +1,33 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
   body {
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    margin-bottom:2em;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
-  .caixa1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   transform: scale(1.5);
+  .btn_joguenovamente{
+    padding:20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.5s;
   }
-  
-  h1{
-    font-family: 'Handjet', sans-serif;
-    font-size: 100px;
-    color: black;
-    text-shadow:
-    -1px -1px 0px #FFF, 
-    -1px 1px 0px #FFF,                    
-    1px -1px 0px #FFF,                  
-    1px 0px 0px #FFF;
-}
 
-.btn_joguenovamente{
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2%;
-  height: 50px;
-  background-color: #da107b;
-  margin: 5px;
-  border-radius: 30px;
-  border-color: rgb(91, 158, 189);
-  box-shadow: 3px 3px 3px 3px black;
-  margin-top: 350px;
-  position: absolute;
-}
-.btn_joguenovamente a{
-  font-family: 'Handjet';
-  font-size: 1.5rem;
+  .btn_joguenovamente:hover{
+    background-color:rgb(0, 255, 255);
+    scale: 1.1;
+  }
+a{
+  cursor: pointer;
   text-decoration: none;
-  color: black;  
-}
-
-.btn_joguenovamente:hover{
-width: 230px;
-height: 100px;
-background-color: #01ecf3;
+  color: #333;
 }

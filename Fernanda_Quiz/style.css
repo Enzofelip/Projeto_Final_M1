@@ -1,7 +1,7 @@
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
 }
 
 body{
@@ -10,6 +10,7 @@ body{
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 2em;
   background-image: url(./imagens/fundo.jpeg); 
 }
   
@@ -21,6 +22,11 @@ section{
   box-shadow: 5px 5px 5px 5px ;
   border-radius: 7px;
   padding: 1em; 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap:3em
 }
 
 #conteiner{
@@ -122,43 +128,18 @@ section{
   }
 
 
-@media(max-width:570px){
-  #resposta{
+ @media(max-width:1000px){
+  .text {
     width: 100%;
   }
-  .botao-verificar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
-
-}
-
-@media(max-width:530px){
-  h2{
-    width: auto
-  }
-
-  .Quest1 img{
-    width: 200px;
-  }
-
-  .btn_Aranha{
+  section img{
     width: 250px;
   }
-
-  .radio_conteiner{
-    height: 70px;
-    width: 100px;
-  }
 }
 
-@media(max-width:289px){
-  h1{
-    font-size: 1.5em;
-  }
-  #resposta{
-    font-size: 1.5em;
+@media(max-width:500px){
+  .text p{
+    font-size: 1em;
   }
 }
