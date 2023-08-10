@@ -10,7 +10,7 @@ function certo(){
     if(Input1.checked){
         alert("Você acertou");
         setTimeout(function() {
-            window.location = "../telas/nivelHard.html";
+            window.location = "/telas/round2.html";
         }, 2000);     
     }else if(Input2.checked || Input3.checked || Input4.checked){
          alert("Resposta errada");

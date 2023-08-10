@@ -1,4 +1,4 @@
-var resposta = "programação";
+var resposta = "console.log";
 
 function btnresposta()
 
@@ -14,7 +14,7 @@ function btnresposta()
                 } else {
                     alert("Você perdeu!");
                     setTimeout(function() {
-                        window.location = "../telas/gameOver.html";
+                        window.location = "/telas/gameOver.html";
                       }, 2000);
 
                 }

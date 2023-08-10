@@ -86,13 +86,13 @@ html, body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transform: scale(1.5);
+    transform: scale(1.2);
     font-family: century-gothic, sans-serif;
   }
   
   button:hover {
-    transform: scale(1.1);
-    background-color: #2e2787;
+    transform: scale(1.5);
+  background-color: #082a9b;
   }
   #programacao{
     height: 350px;

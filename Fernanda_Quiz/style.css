@@ -82,7 +82,7 @@ section{
     display: flex;
     color:rgb(255, 255, 255);
     background-color: black;
-    margin: 3%;
+    margin: 5px;
     border-radius: 30px;
     border-color: #2e2787;
     box-shadow: 5px 3px 3px black;
@@ -93,13 +93,13 @@ section{
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transform: scale(1.5);
+    transform: scale(1.2);
     font-family: century-gothic, sans-serif;
   } 
   
   #botao-verificar:hover {
-    transform: scale(1.1);
-    background-color: #2e2787;
+    transform: scale(1.5);
+    background-color: #082a9b;
   }
 
   button{
