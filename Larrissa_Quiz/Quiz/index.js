@@ -1,4 +1,4 @@
-var resposta = "console.log";
+var resposta = "for";
 
 function btnresposta()
 
